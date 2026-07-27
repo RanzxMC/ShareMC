@@ -3,57 +3,215 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ShareMC</title>
+<title>ShareMC - Download APK</title>
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#0d1117;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
+background:#0d1117;
+color:#fff;
 }
-.box{
-    text-align:center;
-    background:#161b22;
-    padding:30px;
-    border-radius:15px;
-    width:320px;
-    box-shadow:0 0 20px rgba(0,0,0,.4);
+
+header{
+background:#161b22;
+padding:18px;
+border-bottom:1px solid #30363d;
+position:sticky;
+top:0;
 }
-h1{
-    color:#58a6ff;
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#58a6ff;
 }
-p{
-    color:#c9d1d9;
+
+.hero{
+padding:70px 20px;
+text-align:center;
 }
-.btn{
-    display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    background:#238636;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:bold;
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
 }
-.btn:hover{
-    background:#2ea043;
+
+.hero p{
+color:#c9d1d9;
+font-size:18px;
+max-width:700px;
+margin:auto;
+}
+
+.download{
+display:inline-block;
+margin-top:35px;
+background:#2ea043;
+color:white;
+padding:16px 40px;
+border-radius:12px;
+font-size:20px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.download:hover{
+background:#3fb950;
+transform:scale(1.05);
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:30px 20px;
+}
+
+.card{
+background:#161b22;
+padding:25px;
+margin-bottom:20px;
+border-radius:15px;
+border:1px solid #30363d;
+}
+
+.card h2{
+color:#58a6ff;
+margin-bottom:15px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+
+.feature{
+background:#0d1117;
+padding:20px;
+border-radius:10px;
+border:1px solid #30363d;
+}
+
+.feature h3{
+margin-bottom:8px;
+}
+
+.version{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#8b949e;
+border-top:1px solid #30363d;
+margin-top:40px;
 }
 </style>
+
 </head>
+
 <body>
 
-<div class="box">
-    <h1>ShareMC</h1>
-    <p>APK mirip MCPEDL tanpa iklan.</p>
+<header>
+<div class="logo">ShareMC</div>
+</header>
 
-    <a class="btn" href="ShareMC.apk" download>
-        📥 Download APK
-    </a>
+<section class="hero">
+
+<h1>ShareMC</h1>
+
+<p>
+Aplikasi download addon Minecraft Bedrock
+tanpa iklan.
+Lebih ringan, cepat, dan nyaman digunakan.
+</p>
+
+<a class="download" href="https://www.mediafire.com/file/2ftae277kmmkv4g/ShareMC.apk/file" download>
+⬇ Download APK
+</a>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Tentang ShareMC</h2>
+
+<p>
+ShareMC merupakan aplikasi yang memudahkan
+pengguna menemukan dan mengunduh addon
+Minecraft Bedrock dengan tampilan sederhana
+dan tanpa gangguan iklan.
+</p>
+
 </div>
+
+<div class="card">
+
+<h2>Fitur Utama</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🚀 Cepat</h3>
+Loading ringan dan responsif.
+</div>
+
+<div class="feature">
+<h3>🛡 Tanpa Iklan</h3>
+Fokus pada pengalaman pengguna.
+</div>
+
+<div class="feature">
+<h3>📦 Download Mudah</h3>
+Unduh addon hanya beberapa klik.
+</div>
+
+<div class="feature">
+<h3>🎮 Minecraft Bedrock</h3>
+Kompatibel dengan Minecraft Bedrock Edition.
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Versi</h2>
+
+<div class="version">
+<div>Versi Aplikasi</div>
+<div>v1.0</div>
+</div>
+
+<hr style="margin:15px 0;border-color:#30363d;">
+
+<div class="version">
+<div>Status</div>
+<div>Stabil ✅</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 ShareMC • Dibuat oleh RanzxMC
+
+</footer>
 
 </body>
 </html>
